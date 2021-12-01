@@ -1,0 +1,11 @@
+<div id="container">
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <h2>WELCOME</h2>
+        <div class="internalContainer">
+            <input type="email" name="email" placeholder="EMAIL :" id="email" formControlName="email" >
+            <input type="text" name="name" placeholder="NAME :" id="name" formControlName="name">
+            <button type="submit" id="register">REGISTER</button>
+        </div>
+        
+    </form>
+</div>
